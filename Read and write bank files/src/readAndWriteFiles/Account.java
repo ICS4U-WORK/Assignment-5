@@ -11,12 +11,18 @@ package readAndWriteFiles;
 public class Account {
 
 	/**
-	 * 
+	 * Creates a bank account, default names are first and last, account opens with 0$
 	 */
 	public Account() {
 		this("First","Last", 0f);
 	}
 
+	/**
+	 * Creates account with specific name and money
+	 * @param string First name 
+	 * @param string2 Last name
+	 * @param d Balance
+	 */
 	public Account(String string, String string2, float d) {
 		FirstName = string;
 		LastName = string2;
